@@ -1,0 +1,106 @@
+.card{
+    max-width: 320px;
+    height: 509px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    text-align: start;
+    cursor: pointer;
+    }
+    .card_content{
+        width: 100%;
+        height: 480px;
+        padding:10px 40px;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        align-items:flex-start;
+        overflow: hidden;
+        position: relative;
+         -webkit-clip-path: polygon(0 100%, 0 13%, 15% 0, 100% 0, 100% 100%);
+        clip-path: polygon(0 100%, 0 13%, 15% 0, 100% 0, 100% 100%);
+        align-items: center;
+        border-radius: 7px;
+        border: 3px solid rgba(22, 152, 217, 1);
+      }
+      .card_content:hover{
+        border: 3px solid rgb(249, 26, 26);
+      }.card_content:hover>.box{
+        background-color: red;
+      }
+
+
+#cat{
+    position: absolute;
+    width: 368px;
+    height: 360px;
+    top: 225px;
+    left: -30px;
+}
+.title_block{
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+}
+span{
+    font-size: 48px;
+}
+#title{
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+a{
+   color: rgba(22, 152, 217, 1);
+}
+h5{
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    font-weight: 400;
+    line-height: 19px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+p{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(102, 102, 102, 1);
+}
+.box{  
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color:rgba(22, 152, 217, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 77.44%;
+    left: 67%;
+    color: #fff;
+    font-size: 42px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.alea{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: red;
+}
+.disc{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+}
